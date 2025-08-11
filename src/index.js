@@ -1,3 +1,3 @@
-import { renderPage } from "./mainModule.js"
+import { renderPage } from "./mainModule";
 
 renderPage()
