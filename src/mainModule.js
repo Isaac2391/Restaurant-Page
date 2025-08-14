@@ -1,8 +1,8 @@
-const renderPage = function() {
-
 let body = document.querySelector("body")
 let content = document.querySelector("#content")
 let navButtons = document.querySelector("#navButtonsBox")
+
+const renderPage = function() {
 
 let footer = document.createElement("div")
 
@@ -16,7 +16,7 @@ content.style.height = "100vh"
 navButtons.style.backgroundColor = "brown"
 
 navButtons.style.width = "100%"
-navButtons.style.height = "10vh"
+navButtons.style.height = "8vh"
 
 navButtons.style.position = "fixed"
 navButtons.style.top = "0"
@@ -28,10 +28,10 @@ navButtons.style.gap = "5%"
 
 
 footer.style.width = "100%"
-footer.style.height = "10vh"
+footer.style.height = "4vh"
 
 footer.style.color = "white"
-footer.style.fontSize = "1.6rem"
+footer.style.fontSize = "1rem"
 footer.style.backgroundColor = "brown"
 
 footer.style.position = "fixed"
@@ -41,27 +41,6 @@ footer.style.textAlign = "center"
 
 footer.innerText = "This is one of the most generic restaurants of all time"
 
-
-let banner = document.createElement("div")
-content.appendChild(banner)
-
-banner.style.backgroundColor = "brown"
-banner.style.color = "black"
-banner.style.outline = "solid 5px black"
-
-banner.style.height = "20vh"
-banner.style.width = "40vw"
-banner.style.fontSize = "2rem"
-banner.style.padding = "2%"
-banner.style.borderRadius = "35%"
-banner.style.textAlign = "center"
-banner.style.fontWeight = "bold"
-
-banner.style.margin = "auto"
-banner.style.marginTop = "10%"
-
-banner.innerHTML = "Welcome to The Generic Restaurant!"
-
 }
 
-export {renderPage} 
+export { renderPage }
