@@ -1,6 +1,10 @@
+let body = document.querySelector("body")
+
 const renderHome = function() { 
 
-  content.innerHTML = ""
+content.innerHTML = ""
+body.style.backgroundImage = ""
+
 
 let banner = document.createElement("div")
 content.appendChild(banner)

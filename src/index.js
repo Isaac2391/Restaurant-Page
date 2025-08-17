@@ -1,6 +1,8 @@
 import { renderPage } from "./mainModule.js"
 import { renderHome } from "./Home.js"
 import { renderMenu } from "./Menu.js"
+import { renderAbout} from "./About.js"
+import { renderCareer } from "./Careers.js"
 
 renderPage()
 renderHome()
@@ -12,6 +14,6 @@ let careersTab = document.querySelector("#careersButton")
 
 homeTab.addEventListener("click", () => { renderHome() })
 menuTab.addEventListener("click", () => { renderMenu() })
-aboutTab.addEventListener("click", () => { })
-careersTab.addEventListener("click", () => { })
+aboutTab.addEventListener("click", () => { renderAbout() })
+careersTab.addEventListener("click", () => { renderCareer() })
 

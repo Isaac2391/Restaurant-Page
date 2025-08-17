@@ -1,3 +1,4 @@
+
 let body = document.querySelector("body")
 let content = document.querySelector("#content")
 let navButtons = document.querySelector("#navButtonsBox")
@@ -15,7 +16,7 @@ content.style.height = "100vh"
 
 navButtons.style.backgroundColor = "brown"
 
-navButtons.style.width = "100%"
+navButtons.style.width = "100vw"
 navButtons.style.height = "8vh"
 
 navButtons.style.position = "fixed"
@@ -27,7 +28,7 @@ navButtons.style.justifyContent = "center"
 navButtons.style.gap = "5%"
 
 
-footer.style.width = "100%"
+footer.style.width = "100vw"
 footer.style.height = "4vh"
 
 footer.style.color = "white"
