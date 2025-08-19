@@ -1,4 +1,4 @@
-Created a restaurant page practice project. Screenshots below; 
+Created a restaurant page practice project with tab switching on the buttons. Screenshots below; 
 
 <img width="2559" height="1200" alt="image" src="https://github.com/user-attachments/assets/00bda557-d640-48c0-838c-b696082dbefa" />
 <img width="2556" height="928" alt="image" src="https://github.com/user-attachments/assets/93f91c60-187e-4c7c-88d2-29a5beeafa4f" />
