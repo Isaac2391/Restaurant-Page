@@ -19,7 +19,7 @@ const imageLabels = ["<b>Generic Burger: £10 </b> <br><br> A beautiful combinat
 const renderMenu = function () { 
 
     content.innerHTML = ""
-    body.style.backgroundImage = ""
+    content.style.backgroundImage = ""
 
     let menuTitle = document.createElement("h1")
 
@@ -75,7 +75,7 @@ const renderMenu = function () {
     menuGrid.style.backgroundColor = "beige"
     menuGrid.style.border = "7px solid gold"
 
-    menuGrid.style.height = "80vh"
+    menuGrid.style.height = "55vh"
     menuGrid.style.width = "90vw"
 
     menuGrid.style.marginLeft = "auto"

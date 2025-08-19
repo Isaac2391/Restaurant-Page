@@ -5,6 +5,9 @@ let navButtons = document.querySelector("#navButtonsBox")
 
 const renderPage = function() {
 
+content.style.backgroundImage = ""
+
+
 let footer = document.createElement("div")
 
 content.appendChild(footer)
